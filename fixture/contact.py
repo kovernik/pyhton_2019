@@ -9,7 +9,8 @@ class ContactHelper:
 
     def open_contact_list(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("home").click()
+        if not (wd.current_url.endswith("/index.php") and len(wd.find_elements_by_name("Delete")) > 0):
+            wd.find_element_by_link_text("home").click()
 
     def submit_delete_contact(self):
         wd = self.app.wd
