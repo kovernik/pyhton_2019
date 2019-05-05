@@ -52,3 +52,8 @@ class ContactHelper:
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         # submit deletion
         self.submit_delete_contact()
+
+    def count(self):
+        wd = self.app.wd
+        self.open_contact_list()
+        return len(wd.find_elements_by_name("selected[]"))
