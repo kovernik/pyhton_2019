@@ -19,7 +19,7 @@
 			<option order-before="10" days="0" store-id="29576"/>
 		</shipment-options>
 		<offers>
-			<offer id="offer-100023661440" available="true">
+			<offer id="100023661440" available="true">
 				<name>Ноутбук Apple MacBook Pro 13 MR9U2RU/A</name>
 				<categoryId>551</categoryId>
 				<vendorCode>MR9U2RU/A</vendorCode>
