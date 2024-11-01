@@ -31,9 +31,9 @@
 					<option days="7" order-before="10"/>
 				</shipment-options>
 				<outlets>
-					<outlet id="24051" instock="1000"></outlet>
+					<outlet id="24051" instock="1000">
 				</outlets>
 			</offer>
-				</offers>
+		</offers>
 	</shop>
 </yml_catalog>
